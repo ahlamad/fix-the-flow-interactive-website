@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar {
+    background-color: black;
+}
+
+.photo-container {
+
+    ul  {
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));
+        padding-bottom: 2em;
+        
+
+        img {
+            /* Foto's even breed als de grid van photo-container */
+            width: 100%;
+            display: block; /* moest van sanne */
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            box-shadow: rgb(0 0 0 / 0.24) 0px 3px 8px;
+            transition: 0.3s ;
+
+            &:hover {
+                transform: rotate(2deg) scale(1.1);
+                box-shadow: rgba(0 0 0 / 0.35) 0px 5px 15px;    
+            }
+        }
+        
+    }
+}
+
+.footer {
+    /* Doordat de applicatie mobile-first is, is de footer niet gelijk te zien */
+    display: none;
+   
+    @media (min-width: 750px) {
+        display: flex;
+        padding: 5em;
+        background-color: black;
+    }    
+        
+    .footer-list{
+
+        @media (min-width: 750px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            place-items: center;
+            width: 100vw;
+        }       
+    }
+}
