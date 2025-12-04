@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.photos-snappmap {
+    img {
+        width: 4em;
+    }
+}
+
+footer {
+    display: none;
+}

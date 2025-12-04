@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    list-style: none;
+}
+
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-bar {
+    background-color: var(--primary-color);
+
+    h1 {
+        color: var(--white);
+    }
+}

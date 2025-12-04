@@ -3,11 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Snappthis</title>
-        <link rel="stylesheet" href="index.css">
+        <title>Profile</title>
+        <link rel="stylesheet" href="https://hebaahx.github.io/look-and-feel-styleguide/styleguide-snappthis.css">
+        <link rel="stylesheet" href="profile.css">
     </head>
 
     <body>
+        <!-- NAVIGATION -->
         <nav class="nav-bar">
             <ul>
                 <li>
@@ -37,86 +39,88 @@
                 <li>
                     <a href="profile.html">
                         <svg width="30" height="25" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 17.5C22.3325 17.5 26.25 13.5825 26.25 8.75C26.25 3.91751 22.3325 0 17.5 0C12.6675 0 8.75 3.91751 8.75 8.75C8.75 13.5825 12.6675 17.5 17.5 17.5ZM35 35C34.902 26.7841 27.1036 20.1467 17.5 20.1467C7.89635 20.1467 0.098 26.7837 0 35H35Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 17.5C22.3325 17.5 26.25 13.5825 26.25 8.75C26.25 3.91751 22.3325 0 17.5 0C12.6675 0 8.75 3.91751 8.75 8.75C8.75 13.5825 12.6675 17.5 17.5 17.5ZM35 35C34.902 26.7841 27.1036 20.1467 17.5 20.1467C7.89635 20.1467 0.098 26.7837 0 35H35Z" fill="#00FF44"/>
                         </svg>
                     </a>
                 </li>
             </ul>
         </nav>
 
-        <header class="mindmap-name">
-            <h1>Roads</h1>
+        <!-- HEADER  -->
+        <header>
+            <h1 class="header-title">You</h1>
+                <a href="settings.html">
+                    <svg width="30" height="25" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M30.8506 19.8C30.8506 19.26 31.0306 18.72 31.0306 18C31.0306 17.28 31.0306 16.74 30.8506 16.2L34.6306 13.14C34.9906 12.78 34.9906 12.42 34.8106 12.06L31.2106 5.76C31.0306 5.58 30.6706 5.4 30.1306 5.58L25.6306 7.38C24.7306 6.66 23.6506 6.12 22.5706 5.58L21.8506 0.9C22.0306 0.36 21.4906 0 21.1306 0H13.9306C13.5706 0 13.0306 0.36 13.0306 0.72L12.3106 5.58C11.2306 5.94 10.3306 6.66 9.25062 7.38L4.93061 5.58C4.39061 5.4 4.03061 5.58 3.67061 5.94L0.0706149 12.24C-0.109385 12.42 0.0706148 12.96 0.430615 13.32L4.21061 16.2C4.21061 16.74 4.03061 17.28 4.03061 18C4.03061 18.72 4.03061 19.26 4.21061 19.8L0.430615 22.86C0.0706148 23.22 0.0706149 23.58 0.250615 23.94L3.85061 30.24C4.03061 30.42 4.39061 30.6 4.93061 30.42L9.43061 28.62C10.3306 29.34 11.4106 29.88 12.4906 30.42L13.2106 35.1C13.2106 35.46 13.5706 35.82 14.1106 35.82H21.3106C21.6706 35.82 22.2106 35.46 22.2106 35.1L22.9306 30.42C24.0106 29.88 25.0906 29.34 25.9906 28.62L30.4906 30.42C30.8506 30.6 31.3906 30.42 31.5706 30.06L35.1706 23.76C35.3506 23.4 35.3506 22.86 34.9906 22.68L30.8506 19.8V19.8ZM17.5306 24.3C14.1106 24.3 11.2306 21.42 11.2306 18C11.2306 14.58 14.1106 11.7 17.5306 11.7C20.9506 11.7 23.8306 14.58 23.8306 18C23.8306 21.42 20.9506 24.3 17.5306 24.3V24.3Z" fill="#FEFEFE"/></svg>
+                </a>
         </header>
 
+        <!-- MAIN -->
         <main>
-            <section class="group-section">
-                <article class="group-name">
-                    <svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M36.455 17.2464C36.455 20.4113 33.8721 22.9873 30.6992 22.9873C27.5268 22.9873 24.9531 20.4113 24.9531 17.2464C24.9531 14.0682 27.5268 11.4922 30.6992 11.4922C33.8653 11.4922 36.455 14.0728 36.455 17.2464ZM13.3312 0C8.64634 0 4.82779 3.81168 4.82779 8.50052C4.82779 13.1888 8.64233 17.0073 13.3312 17.0073C18.0217 17.0073 21.8368 13.1888 21.8368 8.50052C21.8397 3.81168 18.0212 0 13.3312 0ZM39.8847 34.6843C39.8847 29.4545 35.7557 25.2099 30.6906 25.2099C29.7871 25.2099 28.9243 25.3878 28.1032 25.6394C29.185 27.8083 29.8472 30.227 29.8472 32.8287V36H39.8853V34.6843H39.8847ZM0 36H26.6601V32.9848C26.6601 25.4221 20.6761 19.2694 13.3312 19.2694C5.97427 19.2694 0.00057181 25.4227 0.00057181 32.9848V36H0Z" fill="white"/>
-                    </svg>
-                    <h2>Brasil</h2>
+            <!-- PERSONAL INFO OF USER -->
+            <section class="user-section">
+                <article class="user-info">
+                    <h2 class="user-name">Ahlam Adda</h2>
+                    <p>female - born in 00's - busy</p>
+                    <p>ahlam.adda@hva.nl</p>
+                </article>
+            
+                <article class="user-activity">
+                    <ul class="user-activity-list">
+                        <li>
+                            <svg width="40" height="40" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.303 32.3939L0 42.9999V11.1817H39.3939V42.9999L23.1818 26.3333L13.7879 35.8787L10.303 32.3939ZM43.9394 6.63629H10.6061V0.575684H50V32.3939H43.9394V6.63629Z" fill="#224455"/></svg>
+                            <p>51</p>
+                            <p>photo's</p>
+                        </li>
+
+                        <li>
+                            <svg width="40" height="40" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M36.455 17.2464C36.455 20.4113 33.8721 22.9873 30.6992 22.9873C27.5268 22.9873 24.9531 20.4113 24.9531 17.2464C24.9531 14.0682 27.5268 11.4922 30.6992 11.4922C33.8653 11.4922 36.455 14.0728 36.455 17.2464ZM13.3312 0C8.64634 0 4.82779 3.81168 4.82779 8.50052C4.82779 13.1888 8.64233 17.0073 13.3312 17.0073C18.0217 17.0073 21.8368 13.1888 21.8368 8.50052C21.8397 3.81168 18.0212 0 13.3312 0ZM39.8847 34.6843C39.8847 29.4545 35.7557 25.2099 30.6906 25.2099C29.7871 25.2099 28.9243 25.3878 28.1032 25.6394C29.185 27.8083 29.8472 30.227 29.8472 32.8287V36H39.8853V34.6843H39.8847ZM0 36H26.6601V32.9848C26.6601 25.4221 20.6761 19.2694 13.3312 19.2694C5.97427 19.2694 0.00057181 25.4227 0.00057181 32.9848V36H0Z" fill="white"/></svg>
+                            <p>4</p>
+                            <p>groups</p>
+                        </li>
+                    
+                        <li>
+                            <svg width="40" height="40" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.9474 28.9383L30.6568 36L27.5589 22.6819L37.8947 13.7255L24.2697 12.5564L18.9474 0L13.6251 12.5564L0 13.7255L10.3358 22.6819L7.23789 36L18.9474 28.9383Z" fill="#224455"/></svg>
+                            <p>12</p>
+                            <p>stars</p>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="users-snappmaps">
+                <article class="users-last-snappmap">
+                    <h3>Westerpark</h3>
+                    <svg width="20" height="20" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.18 22.1801C4.42 16.2001 0 12.1701 0 7.23008C0 3.20008 3.12 0.0800781 7.15 0.0800781C9.36 0.0800781 11.57 2.05608 13 3.74608C14.43 2.05608 16.64 0.0800781 18.85 0.0800781C22.88 0.0800781 26 3.20008 26 7.23008C26 12.1701 21.58 16.2001 14.82 22.1801L13 24.0001L11.18 22.1801Z" fill="#4E6977"/></svg>
+                    <p>15</p>
+                    <svg width="20" height="20" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.4058 3.72573C13.8278 3.40698 14.3574 3.0832 14.9917 2.83616C16.1688 2.37764 17.9625 2.5135 19.9376 3.75587C19.9376 3.75587 18.8096 5.11737 17.6308 5.67973C16.5155 6.21178 15.9504 6.26072 15.76 6.27722L15.731 6.27981C16.5271 6.82259 17.2388 7.72723 17.6003 9.21083C17.6003 9.21083 15.8777 9.4264 14.802 9.02689C13.7263 8.62738 12.854 8.08004 12.3625 6.78038C12.3603 6.78742 12.3571 6.80485 12.3522 6.83125L12.3522 6.83129C12.3026 7.09881 12.0823 8.28695 11.0688 8.92738C9.95525 9.63107 8.72583 10.0371 7.50457 9.85011C7.42315 9.83805 7.57996 7.4287 9.69078 6.31298C9.57921 6.34012 8.65537 6.50379 7.36284 6.32203C6.07032 6.14026 4.9354 5.27566 4.1755 4.15994C4.11821 4.07249 6.81705 2.01294 9.80536 3.37894L9.80632 3.37941C9.84083 3.39631 10.7891 3.86081 11.5707 4.42144C11.6169 4.00824 11.72 3.38475 11.9495 2.61703C12.3774 1.18528 13.0928 0.0131043 13.0928 0.0131043L15.0185 0C15.0185 0 14.3365 0.747239 13.8811 2.01939C13.7055 2.50991 13.5413 3.13849 13.4058 3.72573ZM18.3084 6.9616C19.2513 8.72819 19.4199 10.3489 19.4199 10.3489C19.4199 10.3489 18.5626 10.7781 16.6085 10.724C14.9853 10.679 13.6024 10.2901 12.5699 9.48645C11.5462 10.699 10.1054 11.3612 8.39262 11.3612C8.03167 11.3612 7.65263 11.3325 7.27087 11.2728C6.63431 11.176 6.12952 10.6938 6.01584 10.0739C5.93171 9.60646 6.04418 8.67016 6.49922 7.68712C5.60815 7.42629 4.95892 7.22425 4.07841 6.30966C1.74927 8.48954 0 10.6278 0 13.9976C0 20.6252 5.59699 26 12.4997 26C19.403 26 24.9988 20.6255 24.9988 13.9976C24.9988 10.2774 22.9356 7.859 20.1692 5.65591C19.6792 6.14351 19.2513 6.46948 18.3084 6.9616Z" fill="#4E6977"/></svg>
+                    <p>9</p>
+                    <svg width="20" height="20" viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.9474 28.9383L30.6568 36L27.5589 22.6819L37.8947 13.7255L24.2697 12.5564L18.9474 0L13.6251 12.5564L0 13.7255L10.3358 22.6819L7.23789 36L18.9474 28.9383Z" fill="#224455"/></svg>
+                    <p>2</p>
                 </article>
 
-                <article class="photo-container">
-                    <ul>
+                <article class="photos-article">
+                    <ul class="photos-snappmap">
                         <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
+                            <img src="assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="">
                         </li>
-
                         <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
+                            <img src="assets/Cyclist-challenges/1eSkHe2Oxj-osmarsanches-São-Paulo-Pinheiros.jpg" alt="">
                         </li>
-
                         <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
+                            <img src="assets/Cyclist-challenges/2qotcLC46v-justguerra-São-Paulo-Pinheiros.jpg" alt="">
                         </li>
-
                         <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
+                            <img src="assets/Cyclist-challenges/4Y2S9obv0f-Camila-São-Paulo-Pinheiros.jpg" alt="">
                         </li>
-
                         <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                <img src="./assets/Cyclist-challenges/07THpQEvgN-justguerra-São-Paulo-Pinheiros.jpg" alt="Cycle path in São Paulo, Pinheiros 1">
-                            </a>
+                            <img src="assets/Cyclist-challenges/6FGsgTENsa-justguerra-São-Paulo-Jardim-EuropaPIX.jpg" alt="">
                         </li>
                     </ul>
                 </article>
             </section>
         </main>
 
+        <!-- FOOTER -->
         <footer class="footer">
             <ul class="footer-list">
                 <li>
