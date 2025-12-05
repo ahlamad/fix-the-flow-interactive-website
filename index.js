@@ -1,5 +1,5 @@
 // Selecteer radio input voor toggle van thema
-let darkModeRadio = document.querySelector('.dark-morde-theme')
+let darkModeRadio = document.querySelector('.dark-mode-theme')
 
 // EventListener toevoegen aan de radio input
 darkModeRadio.addEventListener('click', function() {
