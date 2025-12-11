@@ -14,13 +14,15 @@ body {
     right: 0;
     width: 100vw;
     background-color: var(--primary-color);
-        a {
-            border-radius: 50px;
-            &:focus-visible {
-                outline: 3px solid var(--secondary-action);
-                outline-offset: .3em;
-            }
+        
+    a {
+        border-radius: 50px;
+
+        &:focus-visible {
+            outline: 3px solid var(--secondary-action);
+            outline-offset: .3em;
         }
+    }
 }
 
 .header-bar {
@@ -117,6 +119,30 @@ p {
     color: var(--white);
 }
 
+.save-button::after {
+    
+}
+
+@keyframes --applied-animation {
+    0% {
+        scale: 0;
+        opacity: 0;
+        translate: y -5em;
+    }
+
+    50% {
+        scale: 1.2;
+        opacity: 1;
+        translate: y -5em;
+    }
+
+    100% {
+        scale: 1;
+        opacity: 1;
+        translate: y -5em;
+    }
+}
+
 /* Wanneer de gebruiker zijn donkere modus aanstaat van zijn apparaat */
 @media (prefers-color-scheme: dark) {
 
@@ -177,6 +203,11 @@ body.dark-mode .theme-modes {
 
 body.dark-mode h2, p {
     color: #E9ECEE;
+}
+
+/* Deze p staat hier omdat hij anders overschreven wordt,hier moet ik wat anders voor verzinnen */
+p {
+    color: var(--primary-color);
 }
 
 body.dark-mode .save-button {
