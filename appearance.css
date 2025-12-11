@@ -13,6 +13,14 @@ body {
     left: 0;
     right: 0;
     width: 100vw;
+    background-color: var(--primary-color);
+        a {
+            border-radius: 50px;
+            &:focus-visible {
+                outline: 3px solid var(--secondary-action);
+                outline-offset: .3em;
+            }
+        }
 }
 
 .header-bar {
@@ -48,6 +56,7 @@ main {
 
     img {
         padding-top: 2.5em;
+        padding-bottom: 1.5em;
         width: 65vw;
         height: 45vh;
     }
@@ -62,33 +71,146 @@ main {
 
         button {
             all: unset;
+            display: flex;
             cursor: pointer;
+            border-radius: 50px;
+            border: 3px solid var(--primary-color);
 
-            img {
+            svg, svg > * {
                 width: 30px;
                 height: 30px;
-                border: 3px solid black;
-                border-radius: 50px;
                 padding: .5em;
-                margin-top: 1em ;
-            }  
+                fill: var(--primary-color);
+            }           
+
+            &:hover {
+                scale: 1.2;
+                transition: .7s ease-in;
+            }
+
+            &:focus-visible {
+                outline: 3px solid var(--secondary-action) ;
+                outline-offset: -.15em;
+            }
         }  
     }
 }
 
 h2 {
-    line-height: var(--first-line);
+    padding-top: .6em;
+    line-height: 1.1em;
     font-size: 1.3em;
+    color: var(--primary-color);
 }
 
 p {
     text-align: center;
     line-height: 1.3em;
     font-size: 1em;
+    color: var(--primary-color);
 }
 
-button[type="button"] {
+.save-button {
     margin-top: 1em;
-    width: 40vw;
+    width: 30vw;
+    font-size: 1em;
+    color: var(--white);
 }
+
+/* Wanneer de gebruiker zijn donkere modus aanstaat van zijn apparaat */
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #4E6977;
+    }
+
+    .nav-bar {
+        background-color: #10212A;
+    }
+
+    .header-bar {
+        background-color: #10212A;
+    }
+
+    .theme-modes {
+        button {
+            border: 3px solid var(--white);
+
+            svg, svg > * {
+                fill: var(--white);
+            }    
+        }
+    }
+
+    h2,
+    p {
+        color: #E9ECEE;
+    }
+
+    .save-button {
+        color: #10212A;
+    }
+}
+
+/* Dark mode thema kleuren */
+body.dark-mode {
+    background-color: #4E6977;
+}
+
+body.dark-mode .nav-bar {
+    background-color: #10212A;
+}
+
+body.dark-mode .header-bar {
+    background-color: #10212A; 
+}
+
+body.dark-mode .theme-modes {
+    button {
+        border: 3px solid #E9ECEE;
+
+        svg, svg > * {
+            fill: #E9ECEE;
+        }    
+    }
+}
+
+body.dark-mode h2, p {
+    color: #E9ECEE;
+}
+
+body.dark-mode .save-button {
+    color: #10212A;
+}
+
+/* Light/Default mode thema kleuren */
+body.light-mode {
+    background-color: var(--white);
+}
+
+body.light-mode .nav-bar,
+body.light-mode .header-bar {
+    background-color: var(--primary-color);
+}
+
+body.light-mode .theme-modes {
+    button {
+        border: 3px solid var(--primary-color);
+
+        svg, svg > * {
+            fill: var(--primary-color);
+        }    
+    }
+}
+
+body.light-mode h2, 
+body.light-mode p {
+    color: var(--primary-color);
+}
+
+body.light-mode .save-button {
+    color: var(--white);
+}
+
+
 
