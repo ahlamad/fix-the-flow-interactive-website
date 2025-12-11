@@ -119,10 +119,6 @@ p {
     color: var(--white);
 }
 
-.save-button::after {
-    
-}
-
 @keyframes --applied-animation {
     0% {
         scale: 0;
@@ -203,11 +199,6 @@ body.dark-mode .theme-modes {
 
 body.dark-mode h2, p {
     color: #E9ECEE;
-}
-
-/* Deze p staat hier omdat hij anders overschreven wordt,hier moet ik wat anders voor verzinnen */
-p {
-    color: var(--primary-color);
 }
 
 body.dark-mode .save-button {
