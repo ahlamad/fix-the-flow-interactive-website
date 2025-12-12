@@ -36,7 +36,6 @@ function lightMode() {
     document.querySelector('.save-button').textContent = "Click here to save!"
     document.querySelector('.mode-title').textContent = "Light Mode"
     document.querySelector('.mode-description').textContent = "SnappThis will always use a light mode."
-
 }
 
 function saveMode() {
