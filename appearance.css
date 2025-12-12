@@ -155,7 +155,7 @@ p {
     }
 
     .theme-modes {
-        button {
+        dark-mode-button {
             border: 3px solid var(--white);
 
             svg, svg > * {
