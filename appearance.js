@@ -2,7 +2,7 @@
 let matchSystemButton = document.querySelector('.match-system-button')
 let darkModeButton = document.querySelector('.dark-mode-button')
 let lightModeButton = document.querySelector('.light-mode-button')
-let applyButton = document.querySelector('.save.button')
+let applyButton = document.querySelector('.save-button')
 
 // Voeg de click event toe aan de buttons met callback functies
 matchSystemButton.addEventListener('click', matchSystemMode)
