@@ -13,6 +13,14 @@
 
     a {
         border-radius: 50px;
+        display: flex;
+        place-items: center;
+        flex-direction: column;
+        text-decoration: none;
+
+        .nav-label {
+            color: var(--white);
+        }
 
         &:focus-visible {
             outline: 3px solid var(--secondary-action);
