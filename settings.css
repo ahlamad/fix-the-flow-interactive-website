@@ -49,7 +49,8 @@
             color: var(--primary-color);
 
             &:hover {
-                color: var(--grey-text-color);
+                color: #00B832;
+                transition: 0.1s ease-in;
             }
 
             &:active {
