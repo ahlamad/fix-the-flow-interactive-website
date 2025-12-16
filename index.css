@@ -22,6 +22,11 @@
             color: var(--white);
         }
 
+        &:hover {
+            color: var(--white);
+            text-decoration: underline;
+            }
+
         &:focus-visible {
             outline: 3px solid var(--secondary-action);
             outline-offset: .3em;
