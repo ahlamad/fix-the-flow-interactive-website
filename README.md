@@ -12,6 +12,11 @@ De weergavepagina(_Appearance_) zorgt ervoor dat gebruikers het uiterlijk van de
 
 Bij het selecteren van een thema krijgt de gebruiker tekstuele feedback. Na het selecteren van een thema verandert deze feedback, zodat duidelijk wordt dat de gebruiker op de Apply-knop moet klikken op de keuze op te slaan. Pas na het klikken van deze knop hoort de keuze daadwerkelijk toepast te worden.
 
+### UI ontwerpkeuze
+Voor de Appearance-pagina is gekozen voor een herkenbare en overzichtelijke interface die aansluit bij gangbare instellingen in andere applicaties. De thema-opties Light Mode, Dark Mode en Match System zijn bekende patronen, waardoor de gebruiker snel begrijpt hoe de instelling werkt.
+
+De iconen ondersteunen deze keuzes door gebruik te maken van algemeen herkenbare symbolen. Match System biedt de gebruiker controle over het volgen van de systeeminstellingen van het apparaat. Het toepassen van het thema gebeurt pas na het klikken op de Apply-knop, om onbedoelde wijzigingen te voorkomen.
+
 [Mijn Github Pages Link 🌐
 ](https://ahlamad.github.io/fix-the-flow-interactive-website/)
 
@@ -46,6 +51,9 @@ Tijdens deze sprint heb ik het 3 stappenplan toegepast:
 1. Selecter element in de DOM
 2. Koppel het event
 3. Toon de feedback met een CSS clas
+
+<img width="530" height="597" alt="image" src="https://github.com/user-attachments/assets/f3aa2a40-e221-486d-9b02-5de785bc2d13" />
+
 
 ## Bronnen
 * [UI Events @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events)
