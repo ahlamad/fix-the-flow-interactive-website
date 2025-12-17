@@ -13,6 +13,8 @@ De weergavepagina(_Appearance_) zorgt ervoor dat gebruikers het uiterlijk van de
 Bij het selecteren van een thema krijgt de gebruiker tekstuele feedback. Na het selecteren van een thema verandert deze feedback, zodat duidelijk wordt dat de gebruiker op de Apply-knop moet klikken op de keuze op te slaan. Pas na het klikken van deze knop hoort de keuze daadwerkelijk toepast te worden.
 
 ### UI ontwerpkeuze
+[Mijn WireFlow schets](https://github.com/ahlamad/fix-the-flow-interactive-website/issues/1#issuecomment-3598738251)
+
 Voor de Appearance-pagina is gekozen voor een herkenbare en overzichtelijke interface die aansluit bij gangbare instellingen in andere applicaties. De thema-opties Light Mode, Dark Mode en Match System zijn bekende patronen, waardoor de gebruiker snel begrijpt hoe de instelling werkt.
 
 De iconen ondersteunen deze keuzes door gebruik te maken van algemeen herkenbare symbolen. Match System biedt de gebruiker controle over het volgen van de systeeminstellingen van het apparaat. Het toepassen van het thema gebeurt pas na het klikken op de Apply-knop, om onbedoelde wijzigingen te voorkomen.
